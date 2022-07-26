@@ -77,6 +77,31 @@
                   <use href="./іmages/icons.svg#icon-close"></use>
                 </svg>
               </button>
+              <form name="modal-form" autocomplete="on">
+                <p>Залиште свої дані, ми вам передзвонимо</p>
+                <lable
+                  >Ім'я
+                  <input type="text" name="name" />
+                </lable>
+                <lable
+                  >Телефон
+                  <input type="tel" name="phone_number" />
+                </lable>
+                <lable>
+                  Пошта
+                  <input type="email" name="email" />
+                </lable>
+                <lable>
+                  Коментар
+                  <textarea type="text" rows="5" placeholder="Введіть текст">
+                  </textarea>
+                </lable>
+                <label>
+                  <input type="checkbox" name="agree" value="agree" checked />
+                  Погоджуюся з розсилкою та приймаю Умови договору
+                </label>
+                <button type="submit">Відправити</button>
+              </form>
             </div>
           </div>
         </div>
@@ -588,6 +613,20 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div>
+          <form>
+            <label>
+              Підпишіться на розсилку
+              <input type="email" name="mailing-list" placeholder="E-mail" />
+            </label>
+            <button type="submit">
+              Підписатися
+              <svg class="send-icon" width="24" height="24">
+                <use href="./іmages/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

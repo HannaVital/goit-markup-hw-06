@@ -259,8 +259,17 @@ right: 8px;
 border-radius: 50%;
 border: 1px solid rgba(0, 0, 0, 0.1);
 cursor: pointer;
+
 }
 
+.modal-btn-icon {
+  transition: fill var(--animation);
+}
+.modal-btn-icon:hover, .modal-btn-icon:focus {
+  fill: var(--accent-color);
+  
+  
+}
   
 .backdrop.is-hidden {
   visibility: hidden;
